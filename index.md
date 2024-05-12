@@ -16,8 +16,8 @@ Yo 👋, Welcome To My Cyber Security Blog I'm Sp3c7r4. I Post Different Hacking
 - **My Name:**    `Sarafa Satar`
 - **Also Known As:** `Spectra`
 - **What Do I Do:**  `Ethical Hacking / Pentetration Testing / Software Engineering`
-- **Twitter:** [Sp3c7r4](https://twitter.com/sp3c7r4_gee)
-- **Github:** [Git commit -m 'sp3c7r4'](https://github.com/sp3c7r4)
+- **Twitter:** [Sp3c7r4](https://twitter.com/sp3c7r4_gee){: target="_blank" }
+- **Github:** [Git commit -m "sp3c7r4"](https://github.com/sp3c7r4){: target="_blank" }
 <br/>
 <br/><br/>
 <br/>
