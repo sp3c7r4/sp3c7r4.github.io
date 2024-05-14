@@ -40,7 +40,7 @@ Hello, Welcome to another of my blog post, This blog post contains a detailed ro
 **-**Tools to master(Nmap, Burpsuite, Wireshark, Metasploit, WHOIS _etc._)
 
 ### **[Programmin Skills & Knowledge]** 
-**-**Pythonbr/>
+**-**Python<br/>
 **-**Golang<br/>
 **-**Javascript<br/>
 **-**Bash
