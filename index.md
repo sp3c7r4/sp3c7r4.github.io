@@ -18,6 +18,7 @@ Yo 👋, Welcome To My Cyber Security Blog I'm Sp3c7r4. I Post Different Hacking
 - **What Do I Do:**  `Ethical Hacking / Pentetration Testing / Software Engineering`
 - **Twitter:** [Sp3c7r4](https://twitter.com/sp3c7r4_gee){: target="_blank" }
 - **Github:** [Git commit -m "sp3c7r4"](https://github.com/sp3c7r4){: target="_blank" }
+- **My Resume** [Download here](https://raw.githubusercontent.com/sp3c7r4/sp3c7r4/356f8b9c17007279a83d6722dca742c5f4be80f3/Resume.pdf){: target="_blank" }
 <br/>
 <br/><br/>
 <br/>
