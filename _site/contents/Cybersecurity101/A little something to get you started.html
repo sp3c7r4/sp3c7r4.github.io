@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/Asset%208.png">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" > -->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | Sp3c7r4</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Home" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hack Eat Commit Push Sleep Repeat!" />
+<meta property="og:description" content="Hack Eat Commit Push Sleep Repeat!" />
+<link rel="canonical" href="http://localhost:4000/contents/Cybersecurity101/A%20little%20something%20to%20get%20you%20started.html" />
+<meta property="og:url" content="http://localhost:4000/contents/Cybersecurity101/A%20little%20something%20to%20get%20you%20started.html" />
+<meta property="og:site_name" content="Sp3c7r4" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Hack Eat Commit Push Sleep Repeat!","headline":"Home","url":"http://localhost:4000/contents/Cybersecurity101/A%20little%20something%20to%20get%20you%20started.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Sp3c7r4</h1>
+        </a>
+        <h2>Hack Eat Commit Push Sleep Repeat!</h2>
+
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <hr />
+<h3 id="hacker101a-little-something-to-get-you-started">HACKER101[<code class="language-plaintext highlighter-rouge">A little something to get you started</code>]</h3>
+<hr />
+<hr />
+
+<p>It’s been a while since I last touched the cybersecurity field, so I thought of brushing up my knowledge from scratch again. I decided to start using <a href="../../https://ctf.hacker101.com">Hacker101 CTF’s</a>, which has proven to be a very good way to refresh all my knowledge. I recently felt the need to resume my study of web penetration testing strategies, and I discovered that Hacker101’s CTF was a really helpful tool.</p>
+
+<p>So let’s dive in
+If you have any experience interacting with web applications in ways other than your normal surfing habits, the first level of hacker101 is a simple CTF challenge. Taking this opportunity, I will stress how crucial it is to use a web proxy when performing any kind of web penetration testing. When going over the procedures required to locate even the smallest flag, this can be demonstrated.</p>
+
+<p>First, we will look at the step it takes to find this flag without a standard web proxy.</p>
+
+<p>The researcher must visit the page of the CTF:
+<img src="../Images/Screenshot%202024-07-05%20171340.png" alt="Hacker101 CTF's" /></p>
+
+<p>While going through the CTF page it’s just a blank page that says <strong>Welcome to level 0. Enjoy your stay.</strong>. Enjoy your stay it’s, just don’t fleet because you’ve come across nothing except the text</p>
+
+<p>We can check what is being rendered on the web page by using <strong>Developer Tools[F12]</strong> or <strong>Browser Source Code[Ctrl+U]</strong></p>
+
+<p><img src="/contents/Images/Screenshot%202024-07-05%20172701.png" alt="Hacker101 CTF's" />
+As you can see we’ve just opened the Browsers source code and it contains HTML data. If we can slightly analyze the data being returned to us we can see theres a <code class="language-plaintext highlighter-rouge">&lt;style&gt;body {background-image: url("background.png");}&lt;/style&gt;</code> code pointiong to an image that’s not rendered to the page. If we can check the image out by appending it to the ctf url like this <code class="language-plaintext highlighter-rouge">https://&lt;id&gt;.ctf.hacker101.com/background.png</code>. Whoola!!! we got our Flag in this format <strong>^FLAG^b8a3e2977ada30100d0f700543f2628f8e638e331d6f92b8f80366715c4452c5$FLAG$</strong></p>
+<h3 id="home"><strong><a href="../../index.html">Home</a></strong></h3>
+
+      </section>
+    </div>
+  </body>
+</html>
