@@ -169,3 +169,18 @@ hdparm -tT /dev/sdx              => Show the speed of an installed hard drive â€
 wodim --devices                  => Locate CD or DVD device file  
 
 ```
+
+## Linux Commands Tips and Tricks
+Here are some tips for using Linux commands and Terminal to improve your system management efficiency:
+```bash
+Add the `â€“help` option      => To list the full usage of a command.  
+Use the `exit` command      => To close Terminal.  
+Enter the `clear` command   => To clean the Terminal screen.  
+Press the `Tab` button      => To autofill after entering a command with an argument.  
+Use `Ctrl + C`              => To terminate a running command.  
+Press `Ctrl + Z`            => To pause a working command.  
+Use `Ctrl + A`              => To move to the beginning of the line.  
+Press `Ctrl + E`            => To bring you to the end of the line.  
+Separate multiple commands using semicolons (`;`) or double ampersands (`&&`) To execute commands sequentially or conditionally.
+
+```
