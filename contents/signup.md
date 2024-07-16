@@ -52,7 +52,7 @@ title: Home
   });
 </script>
 
-<form id="myForm"  action="https://formsubmit.co/cyberlacoco@gmail.com" method="POST">
+<form id="myForm"  action="https://formsubmit.co/69a44903436fc486d48c98f3d78a2b0d" method="POST">
   <div class="contain">
     <h1 style="color: #b5e853;">Signup with Sp3c7r4</h1>
     <div class="form-group">
