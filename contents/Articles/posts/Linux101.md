@@ -182,5 +182,20 @@ Press `Ctrl + Z`            => To pause a working command.
 Use `Ctrl + A`              => To move to the beginning of the line.  
 Press `Ctrl + E`            => To bring you to the end of the line.  
 Separate multiple commands using semicolons (`;`) or double ampersands (`&&`) To execute commands sequentially or conditionally.
+```
+## NETWORKING
+### Display all network interfaces and IP address
+```bash
+ip a                               => Display all network interfaces and IP address  
+ip addr show dev eth0              => Display eth0 address and details  
+ethtool eth0                       => Query or control network driver and hardware settings  
+ping host                          => Send ICMP echo request to host  
+whois domain                       => Display whois information for domain  
+dig domain                         => Display DNS information for domain  
+dig -x IP_ADDRESS                  => Reverse lookup of IP_ADDRESS  
+host domain                        => Display DNS IP address for domain  
+hostname -i                        => Display all local IP addresses of the host.  
+wget http://domain.com/file        => Download http://domain.com/file  
+netstat -nutlp                     => Display listening tcp and udp ports and corresponding programs  
 
 ```
