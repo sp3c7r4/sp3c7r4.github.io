@@ -51,10 +51,26 @@ title: Home
     });
   });
 </script>
+<style>
+        /* Expand the width of the input box */
+        input[type="text"], button, textarea, input[type="email"] {
+            width: 100%; /* Full width of the container */
+            max-width: 600px; /* Max width of the input box */
+            padding: 10px;
+            margin: none; /* Border color */
+            border-radius: 5px; /* Rounded corners */
+            box-sizing: border-box; /* Include padding and border in width */
+            font-size: 16px; /* Font size */
+        }
+        input[type="text"] {
+            margin-bottom: 10px;
+        }
+</style>
 
 <form id="myForm"  action="https://formsubmit.co/69a44903436fc486d48c98f3d78a2b0d" method="POST">
+<input type="hidden" name="_captcha" value="true">
   <div class="contain">
-    <h1 style="color: #b5e853;">Signup with Sp3c7r4</h1>
+    <h1 id="edits" style="color: #b5e853;"><b>Sp3c7r4 - Contact Form</b></h1>
     <div class="form-group">
       <div class="form-row">
         <div class="col">
@@ -70,5 +86,4 @@ title: Home
     </div>
     <button type="submit" class="btn">Submit Form</button>
   </div>
-</form>
 </form>
