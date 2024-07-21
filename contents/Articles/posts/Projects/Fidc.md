@@ -2,7 +2,11 @@
 layout: default
 title: Projects
 ---
-
+{% if page.image %}
+  <meta content="/img/srcset/{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="{{ '../../assets/images/Asset 5.png' | relative_url }}" property="og:image">
+{% endif %}
 * * *
 ### Projects[`FIDC`]
 * * *
