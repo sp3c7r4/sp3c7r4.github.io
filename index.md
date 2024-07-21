@@ -22,20 +22,20 @@ Yo 👋, Welcome To My Blog I'm Sp3c7r4. I Post Different Writeups, Articles, An
 <br/>
 
 ### **Top Articles:~#**
-- [[July 16 2024]] [Linux Commands 101](./contents/Articles/posts/Linux101.html)<br/>
+- [[July 16 2024]] [Linux Commands 101](./contents/Articles/posts/Linux101)<br/>
 
 ### **Explore:~#**
 <div >
-<a href="./contents/Articles/index.html">
+<a href="./contents/Articles/index">
   <img src="./assets/images/Articles.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
-<a href="./contents/CTF/index.html">
+<a href="./contents/CTF/index">
   <img src="./assets/images/Ctfs.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
-<a href="./contents/Blockchain/index.html">
+<a href="./contents/Blockchain/index">
   <img src="./assets/images/Asset 13.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
-<a href="./contents/Programming/index.html">
+<a href="./contents/Programming/index">
   <img src="./assets/images/Programming.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 </div><br/>
