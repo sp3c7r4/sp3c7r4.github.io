@@ -4,6 +4,7 @@ show_downloads: false
 github: [metadata]
 theme: jekyll-theme-hacker
 remote_theme: pages-themes/hacker@v0.2.0
+permalink: pretty
 plugins:
 - jekyll-remote-theme
 # baseurl: /SP3C7R4.GITHUB.IO
