@@ -3,13 +3,44 @@ layout: default
 title: Projects
 ---
 
-<meta property="og:title" content="ICare">
-<meta property="og:type" content="website">
-<meta property="og:image" content="{{ '../../assets/images/Asset 22.png' | relative_url }}">
-<meta property="og:url" content="https://sp3c7r4.github.io/contents/Articles/posts/Projects/ICare/">
-<meta property="og:description" content="ICARE - Interactive Care">
-<meta property="og:site_name" content="SP3C7R4">
-<meta property="og:locale" content="en_US">
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+{% if page.image %}
+  <meta content="/img/srcset/{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="/img/logo-high-resolution.png" property="og:image">
+{% endif %}
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+  {% endfor %}
+{% endif %}
+{% if page.tags %}
+  {% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+  {% endfor %}
+{% endif %}
 
 * * *
 ### Projects[`ICARE`]
