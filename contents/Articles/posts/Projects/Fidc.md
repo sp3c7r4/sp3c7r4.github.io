@@ -5,7 +5,7 @@ title: Projects
 {% if page.image %}
   <meta content="/img/srcset/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="{{ '../../assets/images/Asset 5.png' | relative_url }}" property="og:image">
+  <meta content="{{ site.url }}{{ '/assets/images/Asset 5.png' | append: site.github.build_revision | relative_url }}" property="og:image">
 {% endif %}
 * * *
 ### Projects[`FIDC`]
