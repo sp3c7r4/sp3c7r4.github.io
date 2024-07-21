@@ -1,16 +1,12 @@
 ---
 layout: default
-title: Home
+title: Projects
 ---
 
 * * *
 ### Projects[`FIDC`]
 * * *
-
-* * *
-**FIDC(FSS INTEGRATED DATA CENTRE) - AN EPAYMENT PLATFORM FOR TERTIARY INSTITUTIONS**
-* * *
-
+![FIDC]({{ '../../assets/images/Asset 5.png' | relative_url }})
 # INTRODUCTION
 Bismillah🤲<br/>
 Hello good day, Welcome to my blog. I'm <st style="color: rgb(0, 210, 45);">spectra</st> thanks for visiting my blog,I really appreciate. I'm a software engineer, I love to code and I'm a problem solver. I'm also a <b style="color: rgb(255, 166, 0);">python3 Freak 🤠</b>. I developed the Backend of this project along side my FrontEnd Buddy <a href="https://www.linkedin.com/in/habeeb-oke-8569a7248">Habeeb Oke</a>.<br/>

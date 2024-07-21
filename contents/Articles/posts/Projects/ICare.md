@@ -1,16 +1,20 @@
 ---
 layout: default
-title: Home
+title: Projects
 ---
 
-* * *
-### Projects[`FIDC`]
-* * *
+<meta property="og:title" content="ICare">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ '../../assets/images/Asset 22.png' | relative_url }}">
+<meta property="og:url" content="https://sp3c7r4.github.io/contents/Articles/posts/Projects/ICare/">
+<meta property="og:description" content="ICARE - Interactive Care">
+<meta property="og:site_name" content="SP3C7R4">
+<meta property="og:locale" content="en_US">
 
 * * *
-**ICare(Interactive Care) - AN AI EMERGENCY RESPONSE APPLICATION**
+### Projects[`ICARE`]
 * * *
-
+![FIDC]({{ '../../assets/images/Asset 22.png' | relative_url }})
 # INTRODUCTION
 Bismillah🤲<br/>
 Hello good day, Welcome to my blog. I'm <st style="color: rgb(0, 210, 45);">spectra</st> thanks for visiting my blog,I really appreciate. I'm a software engineer, I love to code and I'm a problem solver. I'm also a <b style="color: rgb(255, 166, 0);">python3 Freak 🤠</b>. I developed the Backend of this project with two of my favorite tech Buddies <a href="https://github.com/chocolaid">Emmanuel(Mobile App Development)</a>and <a href="https://www.linkedin.com/in/habeeb-oke-8569a7248">Habeeb Oke(Frontend Developer)</a>.<br/>
@@ -38,9 +42,9 @@ Icare has tons of features built with it:
     - Database: SQLite, Firebase<br/>
 
 # PROJECT VIEW
-<img src="{{ '../../assets/images/icare_home.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
-<img src="{{ '../../assets/images/Icare_Inbox.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
-<img src="{{ '../../assets/images/Icare_news.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
-<img src="{{ '../../assets/images/Icare_directions.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
+<img src="{{ '../../assets/images/icare_home.jpg' | relative_url }}" alt="Icare Home" width="20%" height="auto">
+<img src="{{ '../../assets/images/Icare_Inbox.jpg' | relative_url }}" alt="Icare Inbox" width="20%" height="auto">
+<img src="{{ '../../assets/images/Icare_news.jpg' | relative_url }}" alt="Icare News" width="20%" height="auto">
+<img src="{{ '../../assets/images/Icare_directions.jpg' | relative_url }}" alt="Icare Directions" width="20%" height="auto">
 
 ### **[Home]({{ '../../' | relative_url }})**
