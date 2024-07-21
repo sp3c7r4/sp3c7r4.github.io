@@ -48,4 +48,4 @@ Hello, Welcome to another of my blog post, This blog post contains a detailed ro
 ### **[Never Stop Learning]** 
 **-**Go out in the real world and Start putting your skills into real world Scenerio Practice
 
-### **[Home](../../index.html)**
+### **[Home]({{ '../../' | relative_url }})**

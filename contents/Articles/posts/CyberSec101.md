@@ -42,4 +42,4 @@ Have you ever been in a scenerio whereby your data got compromised or SOmeone yo
 
 Everyone in today's interconnected world. Individuals, businesses, government agencies, and organizations of all sizes rely on cybersecurity to protect sensitive data, financial transactions, intellectual property, and critical infrastructure from cyber threats.
 
-### **[Home](../../index.html)**
+### **[Home]({{ '../../' | relative_url }})**

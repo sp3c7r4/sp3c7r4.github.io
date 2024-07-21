@@ -272,3 +272,5 @@ $ crontab -l
 $ getcap -r / 2>/dev/null
 ```
 N:B [GTFOBins](https://gtfobins.github.io/) has a good list of binaries that can be leveraged for privilege escalation if you find any set capabilities, misconfigured sudo permissions or suid/sgid executables.
+
+### **[Home]({{ '../../' | relative_url }})**

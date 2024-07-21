@@ -17,18 +17,31 @@ file	    => View the type of any file
 **Command Description**<br/>
 ```bash
 mkdir          => Create a new directory  
-touch          => Create a new, empty file, or update the modified time of an existing one  
+touch file     => Create a new, empty file, or update the modified time of an existing one  
 cat > file     => Create a new file with the text you type after  
 cat file       => View the contents of a file  
-grep           => View the contents of a file that match a pattern  
+grep           => View the contents of a file that match a pattern
 nano file      => Open a file (or create new one) in nano text editor  
 vim file       => Open a file (or create new one) in vim text editor  
 rm or rmdir    => Remove a file or empty directory  
-rm -r          => Remove a directory that isn’t empty  
+rm -r          => Remove a directory that isn’t empty
+rm -f file     => Force removal of file without prompting for confirmation
+rm -rf file    => Forcefully remove directory recursively
 mv             => Move or rename a file or directory  
-cp             => Copy a file or directory  
+cp             => Copy a file or directory 
+cp file1 file2 => Copy file1 to file2
+cp -r 1st 2nd  => Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
+mv file1 file2 => Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
 rsync          => Synchronize the changes of one directory to another
-
+tail -100 /txt => Display the last 100 lines of txt file
+head file      => Display the first 10 lines of file
+head -100 /txt => Display the first 100 lines of txt file
+less file      => Browse through a text file
+ln -s /path/to/file linkname => Create symbolic link to linkname
+```
+#### **Tips**
+```bash
+grep -r pattern directory - Search recursively for pattern in directory
 ```
  
 
@@ -48,10 +61,16 @@ find /home/john -name 'prefix*' -size 100M+   => Find files in /home/john that s
 ```bash
 whoami      	 => See which user you are currently logged in as
 sudo	         => Execute a command with root permissions
+sudo -i          => Switch to the root account with root\'s environment. (Login shell.)
+sudo -s          => Execute your current shell as root. (Non-login shell.)
+sudo -l          => List sudo privileges for the current user.
 sudo apt install => Install a package on Debian based systems
 sudo dnf install => Install a package on Red Hat based systems
 sudo apt remove	 => Remove a package on Debian based systems
 sudo dnf remove	 => Remove a package on Red Hat based systems
+visudo           => Edit the sudoers configuration file.
+getenforce       => Display the current SELinux mode.
+passwd           => Change the current user\'s password.
 reboot	         => Reboot the system
 poweroff	 => Shut down the system
 ```
@@ -69,7 +88,7 @@ mount and umount      => Mount and unmount a storage device or ISO file
 ```
  
 
-## Compression Commands
+## Compression Commands - ARCHIVES(TAR FILES)
 **Command	Description**<br/>
 ```bash
 tar cf my_dir.tar my_dir        => Create an uncompressed tar archive
@@ -88,8 +107,13 @@ ip r	                => Show IP address of default gateway
 cat /etc/resolv.conf	=> See what DNS servers your system is configured to use
 ping	                => Send a ping request to a network device
 traceroute	        => Trace the network path taken to a device
+
+## SSH LOGINS
 ssh	                => Login to a remote device with SSH
- ```
+ssh host                => Connect to host as your local username
+ssh user@host           => Connect to host as user
+ssh -p port user@host   => Connect to host using port
+```
 
 ## File Permissions and Ownership
 **Command	Description**<br/>
@@ -97,6 +121,30 @@ ssh	                => Login to a remote device with SSH
 chmod	=> Change the file permissions for a file or directory
 chown	=> Change the owner of a file or directory
 chgrp	=> Change the group of a file or directory
+
+## FILE PERMISSIONS
+Linux chmod example
+
+        PERMISSION      EXAMPLE
+
+         U   G   W
+        rwx rwx rwx     chmod 777 filename
+        rwx rwx r-x     chmod 775 filename
+        rwx r-x r-x     chmod 755 filename
+        rw- rw- r--     chmod 664 filename
+        rw- r-- r--     chmod 644 filename
+
+### NOTE: Use 777 sparingly!
+
+        LEGEND
+        U = User
+        G = Group
+        W = World
+
+        r = Read
+        w = write
+        x = execute
+        - = no access
  ```
 
 ## User Management Commands
@@ -199,3 +247,5 @@ wget http://domain.com/file        => Download http://domain.com/file
 netstat -nutlp                     => Display listening tcp and udp ports and corresponding programs  
 
 ```
+
+### **[Home]({{ '../../' | relative_url }})**
