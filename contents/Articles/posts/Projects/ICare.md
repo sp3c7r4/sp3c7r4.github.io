@@ -38,9 +38,9 @@ Icare has tons of features built with it:
     - Database: SQLite, Firebase<br/>
 
 # PROJECT VIEW
-<video width="630" height="350" controls>
-  <source src="{{ '../../assets/videos/video.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="{{ '../../assets/images/icare_home.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
+<img src="{{ '../../assets/images/Icare_Inbox.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
+<img src="{{ '../../assets/images/Icare_news.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
+<img src="{{ '../../assets/images/Icare_directions.jpg' | relative_url }}" alt="Alt text" width="20%" height="auto">
 
 ### **[Home]({{ '../../' | relative_url }})**
