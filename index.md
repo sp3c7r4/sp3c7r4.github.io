@@ -27,16 +27,16 @@ Yo 👋, Welcome To My Blog I'm Sp3c7r4. I Post Different Writeups, Articles, An
 ### **Explore:~#**
 <div >
 <a href="./contents/Articles/index">
-  <img src="./assets/images/Articles.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
+  <img src="./assets/images/article.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 <a href="./contents/CTF/index">
-  <img src="./assets/images/Ctfs.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
+  <img src="./assets/images/ctf.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 <a href="./contents/Blockchain/index">
-  <img src="./assets/images/Asset 13.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
+  <img src="./assets/images/blockchain.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 <a href="./contents/Programming/index">
-  <img src="./assets/images/Programming.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
+  <img src="./assets/images/Programmings.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 </div> {% include my-comments.html %}
 <br/>

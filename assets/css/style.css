@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Ve
 
 dt { font-style: italic; font-weight: bold; }
 
-ul li { list-style-image: url("../images/bullet.png"); }
+ul li { list-style-image: url("../images/box3.png"); }
 
 blockquote { color: #aaa; padding-left: 10px; border-left: 1px dotted #666; }
 
