@@ -35,15 +35,9 @@ li { line-height: 1.4; }
 
 /* Header, <header> header   - container h1       - project name h2       - project description
 */
-<<<<<<< HEAD
 header { background: rgba(0, 0, 0, 0.1); width: 100%; border-bottom: 1px dashed rgba(20, 222, 155, 0.95); padding: 20px 0; margin: 0 0 40px 0; }
 
 header h1 { font-size: 30px; line-height: 1.5; margin: 0 0 0 -40px; font-weight: bold; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: rgba(20, 222, 155, 0.95); text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); letter-spacing: -1px; -webkit-font-smoothing: antialiased; }
-=======
-header { background: rgba(0, 0, 0, 0.1); width: 100%; border-bottom: 1px dashed color: rgba(20, 222, 155, 0.95); padding: 20px 0; margin: 0 0 40px 0; }
-
-header h1 { font-size: 30px; line-height: 1.5; margin: 0 0 0 -40px; font-weight: bold; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: color: rgba(20, 222, 155, 0.95); text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); letter-spacing: -1px; -webkit-font-smoothing: antialiased; }
->>>>>>> 92dc2ffb8d74abbba37e59fba4b22de59e0f3c81
 @media (max-width: 1000px) { header h1 { margin-left: 0; } }
 
 header h1:before { content: "./ "; font-size: 24px; }
@@ -78,29 +72,17 @@ ul li { list-style-image: url("../images/bullet.png"); }
 
 blockquote { color: #aaa; padding-left: 10px; border-left: 1px dotted #666; }
 
-<<<<<<< HEAD
 pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 16px; color: rgba(20, 222, 155, 0.95); border-radius: 2px; word-wrap: normal; overflow: auto; overflow-y: hidden; }
-=======
-pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 16px; color: color: rgba(20, 222, 155, 0.95); border-radius: 2px; word-wrap: normal; overflow: auto; overflow-y: hidden; }
->>>>>>> 92dc2ffb8d74abbba37e59fba4b22de59e0f3c81
 
 code.highlighter-rouge { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 0px 3px; margin: 0px -3px; color: #aa759f; border-radius: 2px; }
 
 table { width: 100%; margin: 0 0 20px 0; }
 
-<<<<<<< HEAD
 th { text-align: left; border-bottom: 1px dashed rgba(20, 222, 155, 0.95); padding: 5px 10px; }
 
 td { padding: 5px 10px; }
 
 hr { height: 0; border: 0; border-bottom: 1px dashed rgba(20, 222, 155, 0.95); color: rgba(20, 222, 155, 0.95); }
-=======
-th { text-align: left; border-bottom: 1px dashed color: rgba(20, 222, 155, 0.95); padding: 5px 10px; }
-
-td { padding: 5px 10px; }
-
-hr { height: 0; border: 0; border-bottom: 1px dashed color: rgba(20, 222, 155, 0.95); color: rgba(20, 222, 155, 0.95); }
->>>>>>> 92dc2ffb8d74abbba37e59fba4b22de59e0f3c81
 
 /* Buttons
 */
