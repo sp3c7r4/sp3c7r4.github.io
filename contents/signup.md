@@ -10,7 +10,7 @@ title: Home
     margin: 40px auto;
     padding: 20px;
     background-color: #2f343f; /* dark gray background */
-    border: 1px solid #b5e853; /* green border */
+    border: 1px solid rgba(20, 222, 155, 0.95); /* green border */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
@@ -19,7 +19,7 @@ title: Home
   }
  .form-control {
     background-color: #3b4048; /* dark gray input background */
-    border: 1px solid #b5e853; /* green border */
+    border: 1px solid rgba(20, 222, 155, 0.95); /* green border */
     color: #fff; /* white text */
     padding: 10px;
   }
@@ -33,11 +33,8 @@ title: Home
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    outline: 2px solid #b5e853; /* add an outline around the button */
+    outline: 2px solid rgba(20, 222, 155, 0.95); /* add an outline around the button */
     outline-offset: 2px;
-  }
- .btn:hover {
-    background-color: #8bc34a; /* lighter green button background on hover */
   }
 </style>
 <script>
@@ -70,7 +67,7 @@ title: Home
 <form id="myForm"  action="https://formsubmit.co/69a44903436fc486d48c98f3d78a2b0d" method="POST">
 <input type="hidden" name="_next" value="{{ 'https://sp3c7r4.github.io/contents/thankyou' | relative_url }}">
   <div class="contain">
-    <h1 id="edits" style="color: #b5e853;"><b>Sp3c7r4 - Contact Form</b></h1>
+    <h1 id="edits" style="color: rgba(20, 222, 155, 0.95)"><b>Sp3c7r4 - Contact Form</b></h1>
     <div class="form-group">
       <div class="form-row">
         <div class="col">

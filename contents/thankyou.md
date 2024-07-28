@@ -22,13 +22,13 @@ title: Home
           }
           .btn { 
             background-color: transparent;
-            border: 2px solid #b5e853;
+            border: 2px solid rgba(20, 222, 155, 0.95);
             padding: 10px 20px;
-            color: #b5e853;
+            color: rgba(20, 222, 155, 0.95);
             cursor: pointer;
           }
           .btn:hover {
-            background-color: #b5e853;
+            background-color: rgba(20, 222, 155, 0.95);
             color: #fff;
           }
         </style>
