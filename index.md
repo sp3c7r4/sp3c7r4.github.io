@@ -38,14 +38,5 @@ Yo 👋, Welcome To My Blog I'm Sp3c7r4. I Post Different Writeups, Articles, An
 <a href="./contents/Programming/index">
   <img src="./assets/images/Programming.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
-</div><br/>
- {% include my-comments.html %}
-
-
-
-<!-- * * *
-### **Hacker101 CTF's:~#**
-* * *
-
-- [[July 5 2024]] [A little something to get you started](./contents/Cybersecurity101/A%20little%20something%20to%20get%20you%20started.html)<br/>
-- [[July 5 2024]] [Cybersecurity Roadmap](./contents/Cybersecurity101/CyberSecurity-Roadmap.html) -->
+</div> {% include my-comments.html %}
+<br/>
