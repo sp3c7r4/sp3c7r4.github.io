@@ -24,4 +24,8 @@ We can check what is being rendered on the web page by using **Developer Tools[F
 
 ![Hacker101 CTF's](../Images/Screenshot 2024-07-05 172701.png)
 As you can see we've just opened the Browsers source code and it contains HTML data. If we can slightly analyze the data being returned to us we can see theres a ``` <style>body {background-image: url("background.png");}</style> ``` code pointiong to an image that's not rendered to the page. If we can check the image out by appending it to the ctf url like this ```https://<id>.ctf.hacker101.com/background.png```. Whoola!!! we got our Flag in this format **^FLAG^b8a3e2977ada30100d0f700543f2628f8e638e331d6f92b8f80366715c4452c5$FLAG$**
+
+<br/>
+{% include my-comments.html %}
+
 ### **[Home](../../index)**

@@ -247,5 +247,7 @@ wget http://domain.com/file        => Download http://domain.com/file
 netstat -nutlp                     => Display listening tcp and udp ports and corresponding programs  
 
 ```
+<br/>
+{% include my-comments.html %}
 
 ### **[Home]({{ '../../' | relative_url }})**
