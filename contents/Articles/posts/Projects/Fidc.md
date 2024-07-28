@@ -34,6 +34,8 @@ Fidc Platform Enables students to make anykind of Fees payment that has been int
   <source src="{{ '../../assets/videos/fidc.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+<br/>
+{% include my-comments.html %}
+<br/>
 
 ### **[Home]({{ '../../' | relative_url }})**

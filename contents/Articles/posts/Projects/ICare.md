@@ -45,5 +45,8 @@ Icare has tons of features built with it:
 <img src="{{ '../../assets/images/Icare_Inbox.jpg' | relative_url }}" alt="Icare Inbox" width="20%" height="auto">
 <img src="{{ '../../assets/images/Icare_news.jpg' | relative_url }}" alt="Icare News" width="20%" height="auto">
 <img src="{{ '../../assets/images/Icare_directions.jpg' | relative_url }}" alt="Icare Directions" width="20%" height="auto">
+<br/>
+{% include my-comments.html %}
+<br/>
 
 ### **[Home]({{ '../../' | relative_url }})**

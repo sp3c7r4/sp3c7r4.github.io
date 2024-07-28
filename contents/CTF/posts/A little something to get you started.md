@@ -27,5 +27,6 @@ As you can see we've just opened the Browsers source code and it contains HTML d
 
 <br/>
 {% include my-comments.html %}
+<br/>
 
 ### **[Home](../../index)**

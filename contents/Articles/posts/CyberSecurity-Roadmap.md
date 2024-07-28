@@ -50,5 +50,6 @@ Hello, Welcome to another of my blog post, This blog post contains a detailed ro
 
 <br/>
 {% include my-comments.html %}
+<br/>
 
 ### **[Home]({{ '../../' | relative_url }})**
