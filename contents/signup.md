@@ -65,7 +65,7 @@ title: Home
 </style>
 
 <form id="myForm"  action="https://formsubmit.co/69a44903436fc486d48c98f3d78a2b0d" method="POST">
-<input type="hidden" name="_next" value="{{ 'https://sp3c7r4.github.io/contents/thankyou' | relative_url }}">
+<input type="hidden" name="_next" value="https://sp3c7r4.github.io/contents/thankyou">
   <div class="contain">
     <h1 id="edits" style="color: rgba(20, 222, 155, 0.95)"><b>Sp3c7r4 - Contact Form</b></h1>
     <div class="form-group">
