@@ -36,7 +36,7 @@ Yo 👋, Welcome To My Blog I'm Sp3c7r4. I Post Different Writeups, Articles, An
   <img src="./assets/images/blockchain.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 <a href="./contents/Programming/index">
-  <img src="./assets/images/Programmings.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
+  <img src="./assets/images/programmings.png" alt="Cybersecurity Roadmap" style="width: 24%; height: auto;">
 </a>
 </div> {% include my-comments.html %}
 <br/>
