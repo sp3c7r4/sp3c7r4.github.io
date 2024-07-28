@@ -1,11 +1,7 @@
----
----
-
 @import "{{ site.theme }}";
 
-
-.highlight { color: rgb(20, 222, 155, 0.95); }
-header {border-bottom: 1px dashed rgb(20, 222, 155, 0.95);}
-header h1 {color: rgb(20, 222, 155, 0.95);}
-h1, h2, h3, h4, h5, h6 { color: rgb(20, 222, 155, 0.95);}
-pre th { color: rgb(20, 222, 155, 0.95);}
+.highlight { color: rgba(20, 222, 155, 0.95); }
+header { border-bottom: 1px dashed rgba(20, 222, 155, 0.95); }
+header h1 { color: rgba(20, 222, 155, 0.95); }
+h1, h2, h3, h4, h5, h6 { color: rgba(20, 222, 155, 0.95); }
+pre th { color: rgba(20, 222, 155, 0.95); }
