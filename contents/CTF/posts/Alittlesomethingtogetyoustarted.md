@@ -16,13 +16,13 @@ If you have any experience interacting with web applications in ways other than 
 First, we will look at the step it takes to find this flag without a standard web proxy.
 
 The researcher must visit the page of the CTF:
-![Hacker101 CTF's](../Images/Screenshot%202024-07-05%20171340.png)
+<img src="{{ '../../contents/Images/Screenshot%202024-07-05%20171340.png' | relative_url }}"><br/>
 
 While going through the CTF page it's just a blank page that says **Welcome to level 0. Enjoy your stay.**. Enjoy your stay it's, just don't fleet because you've come across nothing except the text
 
 We can check what is being rendered on the web page by using **Developer Tools[F12]** or **Browser Source Code[Ctrl+U]**
 
-![Hacker101 CTF's](../Images/Screenshot 2024-07-05 172701.png)
+<img src="{{ '../../contents/Images/Screenshot 2024-07-05 172701.png' | relative_url }}"><br/>
 As you can see we've just opened the Browsers source code and it contains HTML data. If we can slightly analyze the data being returned to us we can see theres a ``` <style>body {background-image: url("background.png");}</style> ``` code pointiong to an image that's not rendered to the page. If we can check the image out by appending it to the ctf url like this ```https://<id>.ctf.hacker101.com/background.png```. Whoola!!! we got our Flag in this format **^FLAG^b8a3e2977ada30100d0f700543f2628f8e638e331d6f92b8f80366715c4452c5$FLAG$**
 
 <br/>
